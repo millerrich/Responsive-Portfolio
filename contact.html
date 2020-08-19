@@ -36,31 +36,43 @@
           <!--end navbar text container-->
           </div>
         <!--end navbar-->
-          </nav>
-          <!--card containing form-->
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h1>Contact</h1>
-                <!--contact form-->
-                <form>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </nav>
+          <!--add container for contact card-->
+          <div class="container">
+            <!--add row for contact card-->
+            <div class="row">
+              <!--add column for contact card-->
+              <div class="col-12">
+                <!--card containing form-->
+                <div class="card" style="max-width: 100%">
+                  <div class="card-body">
+                    <h1>Contact</h1>
+                      <!--contact form-->
+                      <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="clientName">Name</label>
+                          <input type="name" class="form-control" id="clientName">
+                        </div>
+                        <div class="form-group">
+                          <label for="clientMessage">Message</label>
+                          <input type="message" class="form-control" id="clientMessage">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      <!--end form-->
+                      </form>
                   </div>
-                  <div class="form-group">
-                    <label for="clientName">Name</label>
-                    <input type="name" class="form-control" id="clientName">
-                  </div>
-                  <div class="form-group">
-                    <label for="clientMessage">Message</label>
-                    <input type="message" class="form-control" id="clientMessage">
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                <!--end form-->
-                </form>
+                <!--end of card-->
+                </div>
+              <!--end of column-->
+              </div>
+            <!--end of row-->
             </div>
-          <!--end of card-->
+          <!--end of card container-->
           </div>
     <!--end of container-->    
     </div>
